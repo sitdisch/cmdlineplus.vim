@@ -14,7 +14,6 @@ let s:save_cpo = &cpo| set cpo&vim
 " movement functions
 " casual movements
 function! cmdlineplus#Motions(kind,count,return) "{{{
-	" CONSIDER this movements are not included: j,k
   let l:cmdline = getcmdline()
   let l:cmdpos = getcmdpos()
 	let l:count = a:count
@@ -529,7 +528,7 @@ function! cmdlineplus#Motions(kind,count,return) "{{{
 		let g:newpos = l:cmdpos
 	endif
 endfunction
-"fFtT movements (also include ;, movements and count highlighting)
+"fFtT movements (also include ;, movements and flashing count highlighting)
 function! cmdlineplus#jumpto_char(kind,target,count) "{{{
 	let l:cmdline = getcmdline()
 	let save_gcr = &gcr
