@@ -3,8 +3,8 @@ let s:save_cpo = &cpo| set cpo&vim
 "=============================================================================
 " Cmdlineplus - Marvelous possibilities!
 "
-"	Original Version:
-"		Author: LeafCage <leafcage+vim @ gmail.com>
+" Original Version:
+"	Author: LeafCage <leafcage+vim @ gmail.com>
 " 	Source: https://github.com/LeafCage/cmdlineplus.vim/blob/master/autoload/cmdlineplus.vim
 " Adapted Version:
 " 	Author: sitdisch <sitdisch@gmx.de>
